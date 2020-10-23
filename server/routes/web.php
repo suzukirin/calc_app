@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/calcs/{num1}/{operator}/{num2}','CalcsController@show');
+
